@@ -1,0 +1,60 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+    <title>Administración de Asientos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>PANEL DE ADMINISTRADOR - CINE</h1>
+    <p>Control de asientos en tiempo real</p>
+
+    <div class="admin-stats">
+        <div class="stat">
+            <h3>Disponibles</h3>
+            <h2 id="availableCount">0</h2>
+        </div>
+
+        <div class="stat">
+            <h3>Reservados</h3>
+            <h2 id="reservedCount">0</h2>
+        </div>
+
+        <div class="stat">
+            <h3>Vendidos</h3>
+            <h2 id="soldCount">0</h2>
+        </div>
+    </div>
+
+    <h3>Estado de los asientos</h3>
+
+    <div class="legend">
+        <span>⬜ Disponible</span>
+        <span>🟨 Reservado</span>
+        <span>🟥 Vendido</span>
+    </div>
+
+    <div id="seating"></div>
+
+    <div class="admin-buttons">
+        <button id="releaseAllBtn">
+            Liberar Reservas
+        </button>
+
+        <button id="resetAllBtn">
+            Resetear Asientos
+        </button>
+    </div>
+
+    <p>
+        <a href="index.html">Volver a reservas</a>
+    </p>
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="admin.js"></script>
+</body>
+</html>

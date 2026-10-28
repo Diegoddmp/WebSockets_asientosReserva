@@ -1,25 +1,10 @@
 {
   "name": "lab2-websockets",
   "version": "2.0.0",
-  "description": "laboratorio para entender el manejo del protocolo websocket. Se trabajara con conceptos como: sincronización, comunicación en tiempo real, manejo de eventos e iteracción cliente-servidor",
-  "keywords": [
-    "websockets",
-    "comunicacción",
-    "en",
-    "tiempo",
-    "real",
-    "sincronización"
-  ],
-  "homepage": "https://github.com/features/copilot#readme",
-  "bugs": {
-    "url": "https://github.com/features/copilot/issues"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/features/copilot.git"
-  },
+  "description": "laboratorio para entener el manejo del protocolo websocket. Se trabajara con conceptos como la cincronizacion, comunicacion en tiempo real, manejo de eventos e interaccion cliente-servdiro",
+  "keywords": [],
   "license": "ISC",
-  "author": "Dario Constante",
+  "author": "Naomi Obando",
   "type": "commonjs",
   "main": "server.js",
   "scripts": {

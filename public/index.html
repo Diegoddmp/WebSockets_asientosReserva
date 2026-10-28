@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RESERVA DE ASIENTOS - CINE</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>RESERVA DE ASIENTOS - CINE</h1>
+    
+    <input type="text" id="usernameInput" placeholder="Ingrese su nombre" required />
+    
+    <div id="timerDisplay"></div>
+    <div id="seating"></div>
+    
+   
+    <div id="invoice">
+        <h3>Detalle de Compra</h3>
+        <ul id="selectedList"></ul>
+
+    <div id="totalPriceContainer">
+        <span>Total a pagar:</span>
+        <strong>$<span id="totalPrice">0.00</span></strong>
+    </div>
+</div>
+    <button id="buyBtn"> Comprar Asiento</button>
+
+  
+    <div style="margin-top: 30px;">
+        <a href="admin.html" target="_blank" style="color: #3841bd; font-weight: bold; text-decoration: none;">Abrir Panel de Administrador</a>
+    </div>
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
